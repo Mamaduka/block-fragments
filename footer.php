@@ -16,11 +16,10 @@
 		</div><!-- #primary -->
 	</div><!-- #content -->
 
-	<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
-
 	<footer id="colophon" class="site-footer">
 
-		<?php block_footer_area(); ?>
+		<!-- Footer editable area -->
+		<?php block_template_part( 'footer' ); ?>
 
 	</footer><!-- #colophon -->
 
